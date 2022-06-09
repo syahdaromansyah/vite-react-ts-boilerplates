@@ -8,12 +8,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={viteLogo} className="App-logo App-logo-vite" alt="logo" />
+        <div className="mb-8">
+          <img
+            src={viteLogo}
+            className="App-logo App-logo-vite inline-block transform transition-transform duration-300 hover:scale-125 hover:rotate-6"
+            alt="logo"
+          />
+        </div>
 
-        <p className="App-hello">Hello Vite + React + Typescript! 👋</p>
-        <p>
+        <p className="App-hello mb-8">Hello Vite + React + Typescript! 👋</p>
+        <p className="mb-4">
           <button
             type="button"
+            className="inline-block bg-slate-100 text-slate-800 px-2 py-1 rounded transform transition-transform duration-200 active:scale-95"
             onClick={() => setCounter((count) => count + 1)}
           >
             Count is {counter} {counter === 0 ? 'time' : 'times'}
