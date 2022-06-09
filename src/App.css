@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.App-logo-vite {
+  display: inline-block;
+  height: 320px;
+}
+
+.App-header {
+  background-color: #191c36;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-hello {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
