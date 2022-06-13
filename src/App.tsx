@@ -17,6 +17,9 @@ function App() {
         </div>
 
         <p className="App-hello mb-8">Hello Vite + React + Typescript! 👋</p>
+        <p className="bg-indigo-800 px-4 py-2 rounded-md mb-8">
+          Style amazingly with Tailwind CSS ✨
+        </p>
         <p className="mb-4">
           <button
             type="button"
