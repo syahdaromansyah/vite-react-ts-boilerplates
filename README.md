@@ -7,9 +7,16 @@ A [Vite](https://vitejs.dev) boilerplates project integrating with [React](https
 ## Getting Started
 
 ```bash
+# Get copied project
+npx degit https://github.com/syahdaromansyah/vite-react-ts-boilerplates project-name
+# or
+npx degit https://github.com/syahdaromansyah/vite-react-ts-boilerplates#branch-name project-name
+```
+
+```bash
 # Install project dependencies
 yarn
-#or
+# or
 yarn install
 ```
 
